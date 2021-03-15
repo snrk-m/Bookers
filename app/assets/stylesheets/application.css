@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+h1 {
+   margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+storong {
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+p {
+  margin-left: 70px;
+  line-height: 40px
+}
+
+.start_link {
+  margin-left: 70px;
+}
+
+h2 {
+  
+}
+
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table {
+    display: table;
+    table-layout: auto;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: black;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+    cursor: pointer;
+    margin-left: 30px
+}
+
+h4 {
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+form {
+    margin-left: 33px;
+    margin-top: 0;
+}
+
+.show_edit_link {
+  margin-left:33px;
+}
+
+flash {
+  margin: 15px;
+  background-color: #66CCFF
+}

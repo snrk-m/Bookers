@@ -1,0 +1,7 @@
+<p><storong>Title:</storong><%= @book.title %></p>
+
+<p><storong>Body:</storong><%= @book.body %></p>
+
+<%= link_to "Edit", edit_book_path(@book.id), class:'show_edit_link'%>
+|
+<%= link_to "Back",books_path %>
